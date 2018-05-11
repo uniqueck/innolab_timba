@@ -6,7 +6,7 @@ import com.amazon.ask.Skills;
 public class TimBaStreamHandler extends SkillStreamHandler {
 
 	public TimBaStreamHandler() {
-		super(Skills.standard().addRequestHandlers(new CancelAndStopIntentHandler(), new InnoLabBadeniaIntentHandler(),
+		super(Skills.standard().addRequestHandlers(new CancelAndStopIntentHandler(), new StundenGebuchtIntentHandler(),
 				new HelpIntentHandler(), new LaunchRequestHandler(), new SessionEndedRequestHandler()).build());
 	}
 
