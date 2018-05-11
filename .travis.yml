@@ -26,7 +26,7 @@ deploy:
   region: eu-west-1
   role: arn:aws:iam::470183980790:role/lambda_basic_execution
   runtime: java8
-  handler_name: ""
+  handler_name:
   module_name: com.innolab.timba.handler.TimBaStreamHandler
   access_key_id: AKIAJME73X2UDHJDSRGQ
   secret_access_key:
