@@ -26,8 +26,8 @@ deploy:
   region: eu-west-1
   role: arn:aws:iam::470183980790:role/lambda_basic_execution
   runtime: java8
-  handler_name: com.innolab.timba.handler.TimBaStreamHandler
-  module_name: 
+  handler_name: handler
+  module_name: com.innolab.timba.handler.TimBaStreamHandler
   access_key_id: AKIAJME73X2UDHJDSRGQ
   secret_access_key:
     secure: Zn2xaEWPwyf3QEOCs9mKzre68CBD+LCcgBha/MJNIJyvIMJN+Ghklnx+ni/CCMU5ux1kbWmr9iRxLrghGs3LHtPFvkgGElEizlREvkX4c3S01RjvsmVbWPIu9VT2LuTvpJBNLmfJ1pK2/nK+WcxuypK1IWCwKtiGtp+ZVxSuZNPze9TmnPReC3mkAFkFm3562FU/hwi5Df3vfo2NWCpZcqh4ZEab3MrhMwvzUvCons9BmtHJJjpYWgji4rtZ2aF+0zWMQXqY4SCgjOYmXT052OYwft8E9uFcXMYawo10Pq4XNBgTiPRr1huY4aOp4hvt3aGdmDJFjaI6uyG3GtKVGoJ8UH92KihtaLBYN0GQFoDbqSbrJyzqsunIQwXNINDRWHkUZFXmFoxGgm21RkwwxbTpnp01muspH5ghe1c+7IBjJYiCx7R0Yu5Plv2AO8UWCsfQ4wEDLA3sI8Ex5eLy4PTZKWT+b9MJ15M6qFNw5UA+Lv0fXRwJVC8MEqX1JNfCTB0RidsTUn+uy2LbdH+XfCLvAb9oB61LyBJ30fgJ1GzsGdMKlkAgvO4VsEwiXDuaDiFBMeOSBjdwc+pV3PKaJHWqfK6ItaeRQh2h5YYPPCP7z6ZTg+TafWbjViikG6RFW+9aHukZQ1FLTVxbQ9B/kmtFZhJzQsB1qTwefCDttas=
